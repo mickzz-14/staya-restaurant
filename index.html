@@ -48,6 +48,12 @@
   
 .menu-staya{background:#0d1210}.menu-grid{max-width:1180px;margin:42px auto 0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.menu-panel{padding:34px;border:1px solid rgba(198,154,101,.28);background:linear-gradient(145deg,rgba(255,255,255,.035),rgba(255,255,255,.012))}.menu-panel h3{font-family:"Italiana",serif;font-size:31px;font-weight:400;margin:13px 0 20px}.menu-panel p{font-size:14px;line-height:1.95;color:#c8c5bb;margin:0 0 18px}.menu-panel b{color:var(--green);font-weight:500}.menu-panel .eyebrow{color:var(--gold)}.menu-note{text-align:center;font-size:11px;color:var(--muted);margin:30px auto 0}.hours{background:#111714}.hours-list{max-width:700px;margin:35px auto 0}.hours-list p{display:flex;justify-content:space-between;gap:20px;border-bottom:1px solid var(--line);padding:17px 0;font-size:14px}.hours-list b{font-weight:500}.hours-list span{color:var(--muted)}
 @media(max-width:760px){.menu-grid{grid-template-columns:1fr;margin-top:24px}.menu-panel{padding:25px}.menu-panel h3{font-size:28px}.hours-list p{font-size:12px}}
+
+/* STAYA hero correction: preserve the supplied entrance photo without aggressive crop/zoom */
+.hero-photo{transform:none!important;animation:none!important;background-size:auto,auto,auto 501px!important;background-position:left top,left bottom,right center!important;background-repeat:no-repeat!important}
+.hero .eyebrow{color:#d9f6e9!important;font-size:11px!important;letter-spacing:.24em!important;text-shadow:0 2px 12px #000!important}
+.hero-content{max-width:720px}
+@media(max-width:760px){.hero{min-height:88svh;padding:125px 7vw 9vh}.hero-photo{background-size:auto,auto,auto 64%!important;background-position:left top,left bottom,center center!important;opacity:.92}.hero-content{max-width:100%}.hero .eyebrow{font-size:9px!important;letter-spacing:.16em!important}}
 </style>
 </head>
 <body>
